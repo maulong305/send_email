@@ -5,6 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
+import java.util.Properties;
+
 @SpringBootApplication
 public class SendEmailApplication {
 
@@ -17,4 +19,9 @@ public class SendEmailApplication {
         return new RestTemplate();
     }
 
-}
+    @Bean
+    public Properties properties(){
+        return new Properties();
+    }
+
+   }

@@ -1,5 +1,7 @@
 package bluebottle.send_email.controller;
 
+import bluebottle.send_email.dto.EmailRequest;
+import bluebottle.send_email.dto.EmailResponse;
 import bluebottle.send_email.model.Email;
 import bluebottle.send_email.service.EmailService;
 import com.wildbit.java.postmark.client.exception.PostmarkException;
@@ -25,14 +27,14 @@ public class EmailController {
     private EmailService emailService;
 
     @PostMapping("/send")
-    public ResponseEntity sendEmail(@RequestBody Email email){
-        emailService.sendEmail(email);
-        return new ResponseEntity(email, HttpStatus.OK);
+    public ResponseEntity<EmailRequest> sendEmail(@RequestBody EmailRequest emailRequest){
+        emailService.sendEmail(emailRequest);
+        return new ResponseEntity<>(emailRequest, HttpStatus.OK);
     }
 
     @PostMapping("/sendUseSDK")
-    public ResponseEntity<Void> sendUseSDK(@RequestBody Email email) throws IOException, PostmarkException {
-        emailService.senUseSDK(email);
+    public ResponseEntity<Void> sendUseSDK(@RequestBody EmailRequest emailRequest) throws IOException, PostmarkException {
+        emailService.senUseSDK(emailRequest);
         return new  ResponseEntity<>(HttpStatus.OK);
     }
 }
