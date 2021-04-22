@@ -33,6 +33,8 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'io.projectreactor:reactor-test'
     implementation 'com.wildbit.java:postmark:1.7'
+    implementation 'org.codehaus.janino:janino:2.7.8'
+
 }
 
 test {

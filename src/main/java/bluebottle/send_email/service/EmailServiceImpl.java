@@ -8,6 +8,8 @@ import com.wildbit.java.postmark.client.ApiClient;
 import com.wildbit.java.postmark.client.data.model.message.Message;
 import com.wildbit.java.postmark.client.data.model.message.MessageResponse;
 import com.wildbit.java.postmark.client.exception.PostmarkException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpEntity;
@@ -18,12 +20,12 @@ import org.springframework.web.client.RestTemplate;
 
 import java.io.IOException;
 import java.util.List;
-import java.util.Properties;
 
 @Service
-public class EmailServiceImpl implements EmailService{
+public class EmailServiceImpl implements EmailService {
     @Autowired
     EmailRepository emailRepository;
+
     @Override
     public Email findById(Long id) {
         return emailRepository.findById(id).orElse(null);
@@ -76,6 +78,4 @@ public class EmailServiceImpl implements EmailService{
         message.setHtmlBody(emailRequest.getHtmlBody());
         MessageResponse messageResponse = client.deliverMessage(message);
     }
-
-
 }

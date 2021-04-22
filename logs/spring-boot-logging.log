@@ -1,0 +1,147 @@
+2021-04-22 09:48:29.181  INFO 21232 --- [restartedMain] b.send_email.SendEmailApplication        : Starting SendEmailApplication using Java 1.8.0_272 on LAPTOP-38QPN02T with PID 21232 (D:\New folder\BlueBottle\send_email\build\classes\java\main started by maulo in D:\New folder\BlueBottle\send_email)
+2021-04-22 09:48:29.185  INFO 21232 --- [restartedMain] b.send_email.SendEmailApplication        : No active profile set, falling back to default profiles: default
+2021-04-22 09:48:29.239  INFO 21232 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-22 09:48:29.240  INFO 21232 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-22 09:48:30.552  INFO 21232 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-22 09:48:30.553  INFO 21232 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-22 09:48:30.595  INFO 21232 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface bluebottle.send_email.repository.EmailRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2021-04-22 09:48:30.596  INFO 21232 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 0 JDBC repository interfaces.
+2021-04-22 09:48:30.604  INFO 21232 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-22 09:48:30.605  INFO 21232 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-22 09:48:30.655  INFO 21232 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+2021-04-22 09:48:30.945  INFO 21232 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$c0b09a2a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-22 09:48:31.032  INFO 21232 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-04-22 09:48:31.455  INFO 21232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-22 09:48:31.465  INFO 21232 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-22 09:48:31.465  INFO 21232 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-22 09:48:31.584  INFO 21232 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-22 09:48:31.584  INFO 21232 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2343 ms
+2021-04-22 09:48:31.939  INFO 21232 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-22 09:48:32.630  INFO 21232 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-22 09:48:33.801  INFO 21232 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-22 09:48:34.200  WARN 21232 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-22 09:48:34.260  INFO 21232 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-22 09:48:35.258  INFO 21232 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-22 09:48:35.269  INFO 21232 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-04-22 09:48:35.796  INFO 21232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-22 09:48:35.824  INFO 21232 --- [restartedMain] b.send_email.SendEmailApplication        : Started SendEmailApplication in 7.063 seconds (JVM running for 10.327)
+2021-04-22 09:48:36.634  INFO 21232 --- [RMI TCP Connection(1)-192.168.3.86] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-22 09:48:36.634  INFO 21232 --- [RMI TCP Connection(1)-192.168.3.86] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-22 09:48:36.636  INFO 21232 --- [RMI TCP Connection(1)-192.168.3.86] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-04-22 09:49:25.512  INFO 21232 --- [http-nio-8080-exec-1] b.send_email.model.SpringLoggingHelper   : This is an info message
+2021-04-22 09:49:25.513  WARN 21232 --- [http-nio-8080-exec-1] b.send_email.model.SpringLoggingHelper   : This is a warn message
+2021-04-22 09:49:25.513 ERROR 21232 --- [http-nio-8080-exec-1] b.send_email.model.SpringLoggingHelper   : This is an error message
+2021-04-22 09:51:03.395  INFO 19500 --- [restartedMain] b.send_email.SendEmailApplication        : Starting SendEmailApplication using Java 1.8.0_272 on LAPTOP-38QPN02T with PID 19500 (D:\New folder\BlueBottle\send_email\build\classes\java\main started by maulo in D:\New folder\BlueBottle\send_email)
+2021-04-22 09:51:03.402  INFO 19500 --- [restartedMain] b.send_email.SendEmailApplication        : No active profile set, falling back to default profiles: default
+2021-04-22 09:51:03.492  INFO 19500 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-22 09:51:03.492  INFO 19500 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-22 09:51:04.967  INFO 19500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-22 09:51:04.969  INFO 19500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-22 09:51:05.020  INFO 19500 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface bluebottle.send_email.repository.EmailRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2021-04-22 09:51:05.021  INFO 19500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 0 JDBC repository interfaces.
+2021-04-22 09:51:05.037  INFO 19500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-22 09:51:05.037  INFO 19500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-22 09:51:05.118  INFO 19500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71 ms. Found 1 JPA repository interfaces.
+2021-04-22 09:51:05.507  INFO 19500 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$89edfd90] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-22 09:51:05.654  INFO 19500 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-04-22 09:51:06.067  INFO 19500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-22 09:51:06.076  INFO 19500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-22 09:51:06.076  INFO 19500 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-22 09:51:06.172  INFO 19500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-22 09:51:06.173  INFO 19500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2679 ms
+2021-04-22 09:51:06.493  INFO 19500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-22 09:51:06.802  INFO 19500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-22 09:51:07.934  INFO 19500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-22 09:51:08.274  WARN 19500 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-22 09:51:08.334  INFO 19500 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-22 09:51:08.983  INFO 19500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-22 09:51:08.989  INFO 19500 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-04-22 09:51:09.053  INFO 19500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-22 09:51:09.069  INFO 19500 --- [restartedMain] b.send_email.SendEmailApplication        : Started SendEmailApplication in 6.286 seconds (JVM running for 7.93)
+2021-04-22 09:51:09.636  INFO 19500 --- [RMI TCP Connection(4)-192.168.3.86] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-22 09:51:09.636  INFO 19500 --- [RMI TCP Connection(4)-192.168.3.86] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-22 09:51:09.637  INFO 19500 --- [RMI TCP Connection(4)-192.168.3.86] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-22 09:51:52.191  INFO 19500 --- [http-nio-8080-exec-2] b.send_email.model.SpringLoggingHelper   : This is an info message
+2021-04-22 09:51:55.996  WARN 19500 --- [http-nio-8080-exec-2] b.send_email.model.SpringLoggingHelper   : This is a warn message
+2021-04-22 09:51:59.117 ERROR 19500 --- [http-nio-8080-exec-2] b.send_email.model.SpringLoggingHelper   : This is an error message
+2021-04-22 09:53:01.623  INFO 19500 --- [http-nio-8080-exec-3] b.send_email.model.SpringLoggingHelper   : This is an info message
+2021-04-22 09:53:01.624  WARN 19500 --- [http-nio-8080-exec-3] b.send_email.model.SpringLoggingHelper   : This is a warn message
+2021-04-22 09:53:01.625 ERROR 19500 --- [http-nio-8080-exec-3] b.send_email.model.SpringLoggingHelper   : This is an error message
+2021-04-22 09:53:12.186  INFO 19500 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-22 09:53:12.187  INFO 19500 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-22 09:53:12.192  INFO 19500 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-22 09:53:12.203  INFO 19500 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-22 09:53:16.093  INFO 16552 --- [restartedMain] b.send_email.SendEmailApplication        : Starting SendEmailApplication using Java 1.8.0_272 on LAPTOP-38QPN02T with PID 16552 (D:\New folder\BlueBottle\send_email\build\classes\java\main started by maulo in D:\New folder\BlueBottle\send_email)
+2021-04-22 09:53:16.101  INFO 16552 --- [restartedMain] b.send_email.SendEmailApplication        : No active profile set, falling back to default profiles: default
+2021-04-22 09:53:16.178  INFO 16552 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-22 09:53:16.178  INFO 16552 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-22 09:53:17.234  INFO 16552 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-22 09:53:17.235  INFO 16552 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-22 09:53:17.262  INFO 16552 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface bluebottle.send_email.repository.EmailRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2021-04-22 09:53:17.263  INFO 16552 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 0 JDBC repository interfaces.
+2021-04-22 09:53:17.270  INFO 16552 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-22 09:53:17.270  INFO 16552 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-22 09:53:17.311  INFO 16552 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces.
+2021-04-22 09:53:17.616  INFO 16552 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$1fbabad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-22 09:53:17.679  INFO 16552 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-04-22 09:53:18.131  INFO 16552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-22 09:53:18.142  INFO 16552 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-22 09:53:18.142  INFO 16552 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-22 09:53:18.270  INFO 16552 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-22 09:53:18.271  INFO 16552 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2091 ms
+2021-04-22 09:53:18.579  INFO 16552 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-22 09:53:18.882  INFO 16552 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-22 09:53:19.905  INFO 16552 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-22 09:53:20.235  WARN 16552 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-22 09:53:20.305  INFO 16552 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-22 09:53:20.983  INFO 16552 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-22 09:53:20.988  INFO 16552 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-04-22 09:53:21.034  INFO 16552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-22 09:53:21.047  INFO 16552 --- [restartedMain] b.send_email.SendEmailApplication        : Started SendEmailApplication in 5.375 seconds (JVM running for 6.717)
+2021-04-22 09:53:21.525  INFO 16552 --- [RMI TCP Connection(2)-192.168.3.86] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-22 09:53:21.525  INFO 16552 --- [RMI TCP Connection(2)-192.168.3.86] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-22 09:53:21.526  INFO 16552 --- [RMI TCP Connection(2)-192.168.3.86] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-22 09:53:29.809  INFO 16552 --- [http-nio-8080-exec-2] b.send_email.model.SpringLoggingHelper   : This is an info message
+2021-04-22 09:53:29.809  WARN 16552 --- [http-nio-8080-exec-2] b.send_email.model.SpringLoggingHelper   : This is a warn message
+2021-04-22 09:53:29.809 ERROR 16552 --- [http-nio-8080-exec-2] b.send_email.model.SpringLoggingHelper   : This is an error message
+2021-04-22 09:53:43.089  INFO 16552 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-22 09:53:43.090  INFO 16552 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-22 09:53:43.094  INFO 16552 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-22 09:53:43.099  INFO 16552 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-22 09:53:46.332  INFO 5400 --- [restartedMain] b.send_email.SendEmailApplication        : Starting SendEmailApplication using Java 1.8.0_272 on LAPTOP-38QPN02T with PID 5400 (D:\New folder\BlueBottle\send_email\build\classes\java\main started by maulo in D:\New folder\BlueBottle\send_email)
+2021-04-22 09:53:46.335  INFO 5400 --- [restartedMain] b.send_email.SendEmailApplication        : No active profile set, falling back to default profiles: default
+2021-04-22 09:53:46.395  INFO 5400 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-22 09:53:46.396  INFO 5400 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-22 09:53:47.425  INFO 5400 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-22 09:53:47.426  INFO 5400 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-22 09:53:47.453  INFO 5400 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface bluebottle.send_email.repository.EmailRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2021-04-22 09:53:47.454  INFO 5400 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 0 JDBC repository interfaces.
+2021-04-22 09:53:47.461  INFO 5400 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-22 09:53:47.461  INFO 5400 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-22 09:53:47.503  INFO 5400 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+2021-04-22 09:53:47.773  INFO 5400 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$782e3aef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-22 09:53:47.821  INFO 5400 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-04-22 09:53:48.177  INFO 5400 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-22 09:53:48.187  INFO 5400 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-22 09:53:48.188  INFO 5400 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-22 09:53:48.286  INFO 5400 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-22 09:53:48.286  INFO 5400 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1888 ms
+2021-04-22 09:53:48.573  INFO 5400 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-22 09:53:48.849  INFO 5400 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-22 09:53:49.795  INFO 5400 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-22 09:53:50.122  WARN 5400 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-22 09:53:50.177  INFO 5400 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-22 09:53:50.825  INFO 5400 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-22 09:53:50.830  INFO 5400 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-04-22 09:53:50.875  INFO 5400 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-22 09:53:50.889  INFO 5400 --- [restartedMain] b.send_email.SendEmailApplication        : Started SendEmailApplication in 4.938 seconds (JVM running for 6.013)
+2021-04-22 09:53:51.464  INFO 5400 --- [RMI TCP Connection(1)-192.168.3.86] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-22 09:53:51.465  INFO 5400 --- [RMI TCP Connection(1)-192.168.3.86] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-22 09:53:51.466  INFO 5400 --- [RMI TCP Connection(1)-192.168.3.86] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-22 09:54:19.484  INFO 5400 --- [http-nio-8080-exec-1] b.send_email.model.SpringLoggingHelper   : This is an info message
+2021-04-22 09:54:20.486  WARN 5400 --- [http-nio-8080-exec-1] b.send_email.model.SpringLoggingHelper   : This is a warn message
+2021-04-22 09:54:21.571 ERROR 5400 --- [http-nio-8080-exec-1] b.send_email.model.SpringLoggingHelper   : This is an error message
+2021-04-22 10:18:35.829  INFO 5400 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-22 10:18:35.834  INFO 5400 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-22 10:18:35.863  INFO 5400 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-22 10:18:35.882  INFO 5400 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
