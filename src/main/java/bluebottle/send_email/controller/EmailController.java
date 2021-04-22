@@ -36,7 +36,6 @@ public class EmailController {
     public ResponseEntity<Void> sendUseSDK(@RequestBody EmailRequest emailRequest) throws IOException, PostmarkException {
         emailService.senUseSDK(emailRequest);
 
-        
         return new  ResponseEntity<>(HttpStatus.OK);
     }
 }
